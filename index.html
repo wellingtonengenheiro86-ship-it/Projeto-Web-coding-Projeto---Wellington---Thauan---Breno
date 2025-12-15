@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELL - RECEITAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU TOPO -->
+    <header>
+        <nav class="navbar">
+            <a href="#" id="btn-home">Início</a>
+            <a href="#" id="btn-sobre">Sobre</a>
+            <a href="#" id="btn-contato">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- SEÇÃO HOME -->
+        <section id="sec-home">
+            <h1>Buscador de Receitas</h1>
+            <form class="search-form">
+                <input type="text" placeholder="Digite o Ingrediente" class="search-input">
+                <button type="submit" class="search-button">Buscar</button>
+            </form>
+            <div class="loading"></div>
+            <div class="recipe-list"></div>
+            <div class="recipe-details"></div>
+        </section>
+
+        <!-- SEÇÃO SOBRE -->
+        <section id="sec-sobre" style="display:none;">
+            <h1>Sobre o Site</h1>
+            <p>Este site é um buscador de receitas práticas. Você encontra pratos variados, com ingredientes, modo de preparo e vídeos explicativos.</p>
+            <p>Desenvolvido por: <strong>Wellington, Thauan e Breno</strong></p>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="sec-contato" style="display:none;">
+            <h1>Contato</h1>
+            <p><strong>Wellington</strong> – contato@wellreceitas.com</p>
+            <p><strong>Thauan</strong> – contato@wellreceitas.com</p>
+            <p><strong>Breno</strong> – contato@wellreceitas.com</p>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2025 WELL RECEITAS — <a href="#" id="btn-sobre-footer">Saiba mais</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
